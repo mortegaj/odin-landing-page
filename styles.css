@@ -1,5 +1,14 @@
-/* Styles CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.text {
-    color: blue;
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8; 
 }
