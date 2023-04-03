@@ -120,4 +120,32 @@ button {
     color:#76787b;
 }
 
+/* SECTION 3 */
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.quote {
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
 
