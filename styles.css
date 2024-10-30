@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0px;
 }
 
@@ -110,5 +110,23 @@ button {
     display: flex;
     gap:56px;
     justify-content: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color:#1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin: 56px;
 }
 
