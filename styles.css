@@ -39,6 +39,8 @@ a {
     color: #F9FAF8;
 }
 
+
+.call-to-action-text,
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -130,3 +132,46 @@ button {
     margin: 56px;
 }
 
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 56px;
+
+}
+
+.call-to-action {
+    background-color: #2882F6;
+    border-radius: 8px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 48px 112px;
+    width: 1024px;
+}
+
+.call-to-action-content {
+    flex:1;
+}
+
+.call-to-action-button {
+    border-style: solid;
+    border-color: white;
+    align-self: center;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    background-color: #1F1937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
