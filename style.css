@@ -27,3 +27,43 @@ nav #links {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 200px;
+    gap: 46px;
+}
+
+#hero-text {
+    flex: 1;
+}
+
+#hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-image {
+    flex: 1;
+    background-color: #8b8c8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-top: 16px;
+}
