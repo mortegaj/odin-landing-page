@@ -67,3 +67,31 @@ button {
     padding: 8px 32px;
     margin-top: 16px;
 }
+
+#information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 36px 0;
+}
+
+#information-collection {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    margin-bottom: 100px;
+}
+
+.information-image {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
+
+.information-text {
+    width: 120px;
+    text-align: center;
+    margin-top: 8px;
+}
